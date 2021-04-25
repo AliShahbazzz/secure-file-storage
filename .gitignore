@@ -128,6 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+/__pycache__
 /encryptions-used.txt
 /encryptedFiles
 /decryptedFiles
+/.vscode
+/myfiles
+/key.py
