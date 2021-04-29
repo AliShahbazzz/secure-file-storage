@@ -134,4 +134,6 @@ dmypy.json
 /decryptedFiles
 /.vscode
 /myfiles
+/key
 /key.py
+/cache

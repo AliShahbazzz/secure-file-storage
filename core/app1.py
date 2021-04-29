@@ -27,3 +27,21 @@
 # my_file = open("new.txt", "w")
 # my_file.write(filedata)
 # my_file.close()
+
+# from fsplit.filesplit import Filesplit
+
+# fs = Filesplit()
+
+
+# #fs.split(file="test.txt", split_size=500000, output_dir='.')
+
+# fs.merge(input_dir=".", cleanup=True)
+
+# from Crypto.Cipher import AES
+
+# mykey = b"9876afsd@#%$"
+# enc = str.encode("My name is Shahbaz")
+# # AES Encryption
+# a = AES.new(mykey, mode=AES.MODE_EAX)
+# ct = a.encrypt(enc)
+# print(ct)
