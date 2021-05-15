@@ -137,3 +137,5 @@ dmypy.json
 /key
 /key.py
 /cache
+/non.py
+/sample.txt

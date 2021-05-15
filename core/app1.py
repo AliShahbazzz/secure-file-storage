@@ -37,11 +37,31 @@
 
 # fs.merge(input_dir=".", cleanup=True)
 
-# from Crypto.Cipher import AES
+from Crypto.Cipher import AES, ARC4
+import os
 
-# mykey = b"9876afsd@#%$"
-# enc = str.encode("My name is Shahbaz")
-# # AES Encryption
-# a = AES.new(mykey, mode=AES.MODE_EAX)
-# ct = a.encrypt(enc)
-# print(ct)
+mynonce = os.urandom(16)
+mynonce = mynonce
+print(mynonce)
+mykey = b")H@McQfTjWnZq4t7w!z%C*F-JaNdRgUk"
+
+text = "My name is Shahbaz"
+print("1 " + text)
+
+text = str.encode(text)
+print("2 " + str(text))
+
+a = AES.new(mykey, mode=AES.MODE_EAX)
+#abc = a.nonce
+# print(abc)
+text = a.encrypt(text)
+print("3 " + str(text))
+
+a = AES.new(mykey, mode=AES.MODE_EAX, nonce=mynonce)
+text = a.decrypt(text)
+print("4 " + str(text))
+
+text = text.decode()
+print("5 " + text)
+
+print(text)

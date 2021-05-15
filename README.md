@@ -9,5 +9,4 @@ Mustafa Mohammed Manzoor Kaleem
 Mohammed Firasat Omer Shariff
 
 AES
-DES
-RC1/2/3/4
+ARC4

@@ -1,6 +1,6 @@
-import boto3
-import logging
-from botocore.exceptions import ClientError
+# import boto3
+# import logging
+# from botocore.exceptions import ClientError
 
 # s3 = boto3.resource('s3')
 
